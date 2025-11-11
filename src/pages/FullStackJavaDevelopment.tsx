@@ -624,7 +624,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
               {[
                 { icon: Code, title: "Backend Development", desc: "Java, Spring, Hibernate, REST APIs" },
                 { icon: Target, title: "Frontend Integration", desc: "React.js, HTML, CSS, JavaScript" },
-                { icon: TrendingUp, title: "Microservices", desc: "Modern architecture patterns" },
+                { icon: TrendingUp, title: "Deployment", desc: "Modern architecture patterns" },
                 { icon: Star, title: "Industry Projects", desc: "Real-world applications" }
               ].map((item, index) => (
                 <motion.div
@@ -1958,7 +1958,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
                       <span className="text-gray-900">What is included in the Full Stack Java Development Program?</span>
                     </AccordionTrigger>
                     <AccordionContent className="px-6 pb-6 text-gray-700 leading-relaxed">
-                      The program covers Core Java, Advanced Java, Spring Framework, Hibernate/JPA, Frontend technologies (React.js), Microservices, DevOps tools, RESTful APIs, database design, and real-world projects for full-stack development.
+                      The program covers Core Java, Advanced Java, Spring Framework, Hibernate/JPA, Frontend technologies (React.js),  DevOps tools, RESTful APIs, database design, and real-world projects for full-stack development.
                     </AccordionContent>
                   </AccordionItem>
 
