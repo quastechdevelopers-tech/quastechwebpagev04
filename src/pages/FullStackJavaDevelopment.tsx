@@ -152,9 +152,9 @@ I'm interested in the Full Stack Java Development course. Please provide more de
       description: "Hands-on experience with real-world projects.",
     },
     {
-      title: "Certifications",
+      title: "2 Global Certifications",
       icon: Award,
-      description: "Earn industry-recognized certifications aligned with the curriculum.",
+      description: "Earn industry-recognized global certifications.",
     },
     {
       title: "Personalised Career Coach",
@@ -175,7 +175,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
       description: "Connect with a vast network of successful alumni.",
     },
     {
-      title: " Interviews",
+      title: "Multi-Domain Interviews",
       icon: Users,
       secondaryIcon: HelpCircle,
       description: "Prepare for interviews across various domains.",
@@ -258,7 +258,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
         "Spring Data JPA",
         "RESTful Web Services",
         "Spring Security",
-        "Spring Boot Advanced"
+        "Microservices with Spring"
       ]
     },
     {
@@ -474,7 +474,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
                   {/* Course Details Box */}
                   <div className="bg-white/10 backdrop-blur-md rounded-xl p-3 md:p-4 grid grid-cols-3 gap-2 md:gap-3 border border-white/20">
                     <div className="text-center">
-                      <div className="text-base md:text-xl font-bold text-white"> 9 Months.</div>
+                      <div className="text-base md:text-xl font-bold text-white">9 Months</div>
                       <div className="text-white/80 text-[10px] md:text-xs mt-1">Duration</div>
                     </div>
                     <div className="text-center">
@@ -483,7 +483,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
                     </div>
                     <div className="text-center">
                       <div className="text-base md:text-xl font-bold text-white">LMS</div>
-                      <div className="text-white/80 text-[10px] md:text-xs mt-1"> Access</div>
+                      <div className="text-white/80 text-[10px] md:text-xs mt-1">Access</div>
                     </div>
                   </div>
                 </motion.div>
@@ -624,7 +624,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
               {[
                 { icon: Code, title: "Backend Development", desc: "Java, Spring, Hibernate, REST APIs" },
                 { icon: Target, title: "Frontend Integration", desc: "React.js, HTML, CSS, JavaScript" },
-                { icon: TrendingUp, title: "Deployment", desc: "CI/CD, containers, cloud basics" },
+                { icon: TrendingUp, title: "Microservices", desc: "Modern architecture patterns" },
                 { icon: Star, title: "Industry Projects", desc: "Real-world applications" }
               ].map((item, index) => (
                 <motion.div
@@ -641,6 +641,148 @@ I'm interested in the Full Stack Java Development course. Please provide more de
                   <p className="text-gray-600">{item.desc}</p>
                 </motion.div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Curriculum Section - Industry Oriented Design */}
+        <section className="py-8 md:py-12 bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50">
+          <div className="container mx-auto px-4">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="text-center mb-12"
+            >
+              <h2 className="text-3xl md:text-4xl font-extrabold mb-6">
+                <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-orange-500 bg-clip-text text-transparent">
+                  Full Stack Java Development Curriculum
+                </span>
+              </h2>
+            </motion.div>
+
+            <div className="grid lg:grid-cols-[350px_1fr] gap-8 max-w-7xl mx-auto">
+              {/* Left Sidebar */}
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6 }}
+                className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 rounded-2xl p-8 text-white h-fit sticky top-24 shadow-xl"
+              >
+                  <h3 className="text-xl md:text-2xl font-bold mb-4">Industry Oriented Curriculum</h3>
+                <p className="text-white/90 mb-8 leading-relaxed text-sm">
+                  Explore each topic in-depth through interactive sessions, real-world use cases, and tool-based learning. You'll not only understand the theory but also build practical skills that matter in actual roles.
+                </p>
+
+                {/* Stats Cards */}
+                <div className="space-y-4 mb-8">
+                  <div className="bg-white rounded-xl p-4 shadow-lg">
+                    <div className="flex items-center gap-3">
+                      <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+                        <Database className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">30+</div>
+                        <div className="text-sm text-gray-600 font-medium">Case Studies & Projects</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="bg-white rounded-xl p-4 shadow-lg">
+                    <div className="flex items-center gap-3">
+                      <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
+                        <Wrench className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent">10+</div>
+                        <div className="text-sm text-gray-600 font-medium">Languages & Tools</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="bg-white rounded-xl p-4 shadow-lg">
+                    <div className="flex items-center gap-3">
+                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
+                        <Calendar className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent">280+</div>
+                        <div className="text-sm text-gray-600 font-medium">Live Sessions Hours</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <motion.button
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2"
+                >
+                  <Download className="w-5 h-5" />
+                  Download Brochure
+                </motion.button>
+              </motion.div>
+
+              {/* Main Curriculum Content */}
+              <div className="relative">
+                {/* Vertical Timeline Line - Dashed */}
+                <div 
+                  className="absolute left-6 top-0 bottom-0 w-0.5 hidden lg:block"
+                  style={{
+                    backgroundImage: 'repeating-linear-gradient(to bottom, transparent, transparent 8px, #3b82f6 8px, #3b82f6 16px)'
+                  }}
+                />
+                
+                <div className="space-y-4">
+                  <Accordion type="single" collapsible className="w-full">
+                    {curriculumModules.map((module, index) => (
+                      <AccordionItem
+                        key={module.id}
+                        value={module.id}
+                        className="border border-blue-200 rounded-lg mb-4 bg-white shadow-sm hover:shadow-lg transition-shadow overflow-hidden relative"
+                      >
+                        <AccordionTrigger className="px-6 py-5 hover:no-underline">
+                          <div className="flex items-center justify-between w-full pr-4">
+                            <div className="flex items-center gap-4 flex-1">
+                              {/* Timeline Dot */}
+                              <div className="relative z-10 flex flex-col items-center">
+                                <div className="w-4 h-4 rounded-full bg-gradient-to-br from-blue-600 to-blue-700 border-2 border-white shadow-lg" />
+                              </div>
+                              
+                              <div className="flex-1 text-left">
+                                <div className="flex items-center gap-3 mb-2 flex-wrap">
+                                  <h3 className="text-xl font-bold text-gray-800">{module.title}</h3>
+                                  <span className="px-3 py-1 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-700 rounded-full text-xs font-semibold border border-blue-200">
+                                    {module.category}
+                                  </span>
+                                </div>
+                                <div className="flex items-center gap-2 text-sm text-gray-600">
+                                  <Clock className="w-4 h-4 text-blue-600" />
+                                  <span>{module.duration}</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent className="px-6 pb-6">
+                          <div className="ml-14 grid md:grid-cols-2 gap-4 pt-2">
+                            {module.topics.map((topic, topicIndex) => (
+                              <motion.div
+                                key={topicIndex}
+                                initial={{ opacity: 0, y: 10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: topicIndex * 0.05 }}
+                                className="flex items-end gap-2"
+                              >
+                                <div className="w-1.5 h-1.5 rounded-full bg-blue-600 mt-2 flex-shrink-0" />
+                                <span className="text-gray-700 text-sm">{topic}</span>
+                              </motion.div>
+                            ))}
+                          </div>
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -692,7 +834,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
             </div>
           </div>
         </section>
-
+<CourseTechnologySection courseSlug="full-stack-java-development" />
         {/* Tools & Technologies Section */}
         {/* <section className="py-8 md:py-12 bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50">
           <div className="container mx-auto px-4">
@@ -712,7 +854,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
               </p>
             </motion.div>
 
-      
+            
             <div className="relative overflow-hidden py-8">
              
               <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-slate-50 via-blue-50 to-transparent z-10 pointer-events-none" />
@@ -733,7 +875,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
                 }}
                 style={{ width: "max-content" }}
               >
-              
+               
                 {[
                   { name: "Java", logo: "/coursesicons/java.jpg", color: "from-orange-500 to-orange-600" },
                   { name: "Spring", logo: "/coursesicons/spring.jpg", color: "from-green-500 to-green-600" },
@@ -770,7 +912,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
                   </motion.div>
                 ))}
                 
-                
+               
                 {[
                   { name: "Java", logo: "/coursesicons/java.jpg", color: "from-orange-500 to-orange-600" },
                   { name: "Spring", logo: "/coursesicons/spring.jpg", color: "from-green-500 to-green-600" },
@@ -807,7 +949,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
                   </motion.div>
                 ))}
                 
-               
+                
                 {[
                   { name: "Java", logo: "/coursesicons/java.jpg", color: "from-orange-500 to-orange-600" },
                   { name: "Spring", logo: "/coursesicons/spring.jpg", color: "from-green-500 to-green-600" },
@@ -847,7 +989,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
             </div>
           </div>
         </section> */}
-<CourseTechnologySection courseSlug="full-stack-java-development" />
+
         {/* Career Resources Section */}
         <section className="py-8 md:py-12 bg-white">
           <div className="container mx-auto px-4">
@@ -1186,13 +1328,13 @@ I'm interested in the Full Stack Java Development course. Please provide more de
                       <Textarea
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                        rows={3}
-                        className="w-full bg-gray-50 border-2 border-gray-200 rounded-lg focus:border-blue-500 transition-all resize-none text-sm"
+                        className="w-full min-h-[100px]"
+                        placeholder="Enter your message"
                       />
                     </div>
                     <Button
                       type="submit"
-                      className="w-full h-11 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-sm"
+                      className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300"
                     >
                       SUBMIT
                     </Button>
@@ -1656,13 +1798,13 @@ I'm interested in the Full Stack Java Development course. Please provide more de
                   <div className="flex items-end gap-4">
                     <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-1" strokeWidth={2.5} />
                     <p className="text-gray-700 text-lg leading-relaxed">
-                      Training Certificate is Govern By  Associations.
+                      Training Certificate is Govern By  Global Associations.
                     </p>
                   </div>
                   <div className="flex items-end gap-4">
                     <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-1" strokeWidth={2.5} />
                     <p className="text-gray-700 text-lg leading-relaxed">
-                      Training Certificate will be provided
+                      Training Certificate is Provided 
                     </p>
                   </div>
                   <div className="flex items-end gap-4">
@@ -1709,8 +1851,8 @@ I'm interested in the Full Stack Java Development course. Please provide more de
                     className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
                   >
                     Get In Touch
-                  </motion.button> */}
-                  {/* <motion.button
+                  </motion.button>
+                  <motion.button
                     whileHover={{ scale: 1.05, y: -2 }}
                     whileTap={{ scale: 0.95 }}
                     className="bg-white border-2 border-blue-600 text-blue-600 font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-blue-50"
@@ -1816,7 +1958,7 @@ I'm interested in the Full Stack Java Development course. Please provide more de
                       <span className="text-gray-900">What is included in the Full Stack Java Development Program?</span>
                     </AccordionTrigger>
                     <AccordionContent className="px-6 pb-6 text-gray-700 leading-relaxed">
-                      The program covers Core Java, Advanced Java, Spring Framework, Hibernate/JPA, Frontend technologies (React.js), DevOps tools, RESTful APIs, database design, and real-world projects for full-stack development.
+                      The program covers Core Java, Advanced Java, Spring Framework, Hibernate/JPA, Frontend technologies (React.js), Microservices, DevOps tools, RESTful APIs, database design, and real-world projects for full-stack development.
                     </AccordionContent>
                   </AccordionItem>
 
@@ -1926,4 +2068,3 @@ I'm interested in the Full Stack Java Development course. Please provide more de
 };
 
 export default FullStackJavaDevelopment;
-
