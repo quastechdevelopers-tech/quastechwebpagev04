@@ -393,7 +393,7 @@ const Courses = () => {
                         whileHover={{ scale: 1.02, y: -1 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => {
-                          alert(`Enrolling in ${course.title}! We'll contact you soon.`);
+                          setShowCounsellorForm(true);
                         }}
                         className="cursor-pointer"
                       >
@@ -588,7 +588,7 @@ const Courses = () => {
                         whileHover={{ scale: 1.02, y: -1 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => {
-                          alert(`Enrolling in ${course.title}! We'll contact you soon.`);
+                          setShowCounsellorForm(true);
                         }}
                         className="cursor-pointer"
                       >
